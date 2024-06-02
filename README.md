@@ -52,6 +52,7 @@ updateARModel() 함수는 Firebase에서 다운로드한 3D 모델을 사용하�
 ###Testing.. </br>
 3D 모델을 생성하기전 3D 텍스트를 우선 구현으로 테스팅 했습니다.</br></br>
 <img src="https://github.com/tv1039/ARRealityObjectScan/assets/62321931/142157d9-b7b2-4996-8920-469f1317ce75" width="400px" /> 
+<img src="https://github.com/tv1039/ARRealityObjectScan/assets/62321931/142157d9-b7b2-4996-8920-469f1317ce75" width="400px" /> 
 </br>
 </br>
 ###목표 구현
@@ -62,12 +63,5 @@ RealityObjectScan은 사용자들에게 현실과 가상 세계를 융합한 증
 이 프로젝트를 통해 저는 AR 기술을 활용한 애플리케이션 개발 및 Firebase의 데이터베이스 및 저장소 기능 활용에 대한 원리와 이해를 얻었으며,</br>
 꾸준한 서치와 시도로 문제 해결 능력을 향상시킬 수 있었습니다.</br>
 앞으로도 더욱 다양하고 사용자들에게 있어서 흥미로운 프로젝트에 도전하여 성장해 나가겠습니다.
-
-
-
-![Uploading RPReplay_Final1717344886.gif…]()
-
-
-![Uploading RPReplay_Final1717344886.gif…]()
 
 
