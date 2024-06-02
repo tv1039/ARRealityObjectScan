@@ -1,4 +1,3 @@
-![RPReplay_Final1716979687-ezgif com-video-to-gif-converter](https://github.com/tv1039/ARRealityObjectScan/assets/62321931/a5dcb573-2976-4d64-8958-a33bd0fa1efa)### RealityObjectScan
 
 #### Project Overview (프로젝트 개요)
 RealityObjectScan은 현실 세계에서 사물을 탐지하고, 거기에 해당하는 가상 3D 모델을 실시간으로 투영하여 사용자에게 보여주는 앱입니다. </br>
@@ -49,8 +48,10 @@ updateARModel() 함수는 Firebase에서 다운로드한 3D 모델을 사용하�
 마지막으로 getObjectInfo() 함수는 Firestore에서 해당 객체의 정보를 가져와 사용자에게 제공합니다. </br>
 이러한 함수들은 프로젝트의 중요한 기능을 구현하는 데 사용되며, </br>
 사용자에게 현실과 가상 세계를 융합한 구현을 제공하는 데 중요한 역할을 했습니다.
-![IMG_0015]()
 
+Testing </br>
+3D 모델을 생성하기전 3D 텍스트를 우선 구현으로 테스팅 했습니다.
+<img src="[https://github.com/tv1039/ARRealityObjectScan/assets/62321931/b5f40acd-a862-4694-a1f0-c8a009e737ed](https://github.com/tv1039/ARRealityObjectScan/assets/62321931/a5dcb573-2976-4d64-8958-a33bd0fa1efa)" width="200px" /> </br>
 
 
 <img src="https://github.com/tv1039/ARRealityObjectScan/assets/62321931/b5f40acd-a862-4694-a1f0-c8a009e737ed" width="200px" />
