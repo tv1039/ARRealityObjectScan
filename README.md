@@ -49,7 +49,7 @@ updateARModel() 함수는 Firebase에서 다운로드한 3D 모델을 사용하�
 이러한 함수들은 프로젝트의 중요한 기능을 구현하는 데 사용되며, </br>
 사용자에게 현실과 가상 세계를 융합한 구현을 제공하는 데 중요한 역할을 했습니다.
 
-Testing.. </br>
+### Testing.. </br>
 3D 모델을 생성하기전 3D 텍스트를 우선 구현으로 테스팅 했습니다.</br></br>
 <img src="https://github.com/tv1039/ARRealityObjectScan/assets/62321931/142157d9-b7b2-4996-8920-469f1317ce75" width="400px" /> 
 </br>
