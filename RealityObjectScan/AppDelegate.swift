@@ -8,17 +8,21 @@
 import UIKit
 import SwiftUI
 import RealityKit
+import FirebaseCore
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        FirebaseApp.configure()
+        
         let arModel = ARModel(arView: ARView(frame: .zero))
+        let trainingDataModel = TrainigDataModel(arModel: arModel)
         // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView(trainingDataModel: TrainigDataModel(arModel: arModel))
+        let contentView = ContentView()
+            .environmentObject(trainingDataModel)
 
         // Use a UIHostingController as window root view controller.
         let window = UIWindow(frame: UIScreen.main.bounds)
