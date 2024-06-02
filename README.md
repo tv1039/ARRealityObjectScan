@@ -52,7 +52,7 @@ updateARModel() 함수는 Firebase에서 다운로드한 3D 모델을 사용하�
 
 ### Testing.. </br>
 3D 모델을 생성하기전 3D 텍스트를 우선 구현으로 테스팅 했습니다.</br>
-<img src ="https://github.com/tv1039/ARRealityObjectScan/assets/62321931/5763366f-4b22-4242-8160-ef66e2283497" width="500px />
+<img src ="https://github.com/tv1039/ARRealityObjectScan/assets/62321931/5763366f-4b22-4242-8160-ef66e2283497" width="500px" />
 </br>
 
 </br>
