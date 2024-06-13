@@ -15,7 +15,7 @@ RealityObjectScan의 목표는 사용자들이 현실 세계를 AR을 통해 더
 - **사물 정보 제공**: Firebase Firestore를 사용하여 인식된 사물의 정보를 가져와 사용자에게 제공합니다.
 - **자동/수동 모드**: 사용자는 자동 모드에서는 카메라를 통해 인식된 사물에 대응하는 가상 객체를 자동으로 표시하고, 수동 모드에서는 화면을 탭하여 특정 사물을 선택할 수 있습니다.
 
-### Implementation Details" (구현 세부 내용)
+### Implementation Details (구현 세부 내용)
 이 프로젝트에서 주요 역할은 AR 모델과 사물 인식 부분입니다.</br>
 CoreML 및 Vision 프레임워크를 사용하여 실시간으로 딥러닝한 사물을 스캔하고 인식합니다. </br>
 Firebase Firestore 및 Storage를 활용하여 객체 정보를 관리하였습니다. </br>
