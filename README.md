@@ -57,8 +57,8 @@ updateARModel() 함수는 Firebase에서 다운로드한 3D 모델을 사용하�
 </br>
 
 ### implementation goal (목표 구현)
-테스트를 거친후 원하는 방향으로 3D모델과 동시에 인식된 객체를 설명하는 뷰의 구성을 완성하였습니다.</br>
-<img src="https://github.com/tv1039/ARRealityObjectScan/assets/62321931/b5f40acd-a862-4694-a1f0-c8a009e737ed" width="500px" />
+자동/수동 모드에 따른 테스트를 거친후 원하는 방향으로 3D모델과 동시에 인식된 객체를 설명하는 뷰의 구성을 완성하였습니다.</br>
+<img src="https://github.com/tv1039/ARRealityObjectScan/assets/62321931/757206a9-40b9-4a54-bf7d-82eac888efb7" width="500px" />
 <img src="https://github.com/tv1039/ARRealityObjectScan/assets/62321931/e99971db-31e2-43b4-8a88-8e1f5544a0b1" width="500px" />
 
 ## Project Review and Future Directions (후기와 향후 목표)
