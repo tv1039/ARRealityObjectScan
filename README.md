@@ -55,7 +55,9 @@ func getObjectInfo(objectName: String, completion: @escaping (ObjectModel?, Erro
 </br></br>
 해결 방법은 앵커를 카메라 기반에서 객체 기반으로 전환하는 것이었습니다. 이 변경으로 문제가 해결되었고, 3D 모델이 AR 환경에 정확하게 배치되었습니다. </br>
 이 경험으로 ARKit과 RealityKit을 사용할 때 앵커 포인트를 올바르게 설정하는 것의 중요성을 깨달았습니다. </br>
-이는 실제 세계에서 3D 객체를 정확하게 배치하기 위해 AR 앱을 개발할 때 고려해야 할 중요한 요소라고 생각합니다.
+이는 실제 세계에서 3D 객체를 정확하게 배치하기 위해 AR 앱을 개발할 때 고려해야 할 중요한 요소라고 생각합니다. </br>
+[Solutions in Blog](https://velog.io/@messeung/SwiftUI-ARKit-%EB%B0%8F-Core-ML%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EC%82%AC%EB%AC%BC-%EC%9D%B8%EC%8B%9D3) - 블로그 보러가기
+
 </br></br>
 ## Implementation goal (목표 구현)
 자동/수동 모드에 따른 테스트를 거친후 원하는 방향으로 3D모델과 동시에 인식된 객체를 설명하는 뷰의 구성을 완성하였습니다.</br></br>
