@@ -42,31 +42,26 @@ func getObjectInfo(objectName: String, completion: @escaping (ObjectModel?, Erro
 }
 ```
 이 코드들은 프로젝트의 핵심 기능을 수행하는 함수들입니다. </br>
-`recognizeObjectFromCurrentFrame()` 함수는 현재 카메라 프레임에서 사물을 인식하고, </br>
+`recognizeObjectFromCurrentFrame()` 함수는 현재 카메라 프레임에서 사물을 인식하고,</br>
 인식된 사물의 이름을 객체로 설정하여 가상 객체를 업데이트합니다. </br></br>
-
-`updateARModel()` 함수는 Firebase에서 다운로드한 3D 모델을 사용하여 인식된 사물에 해당하는 가상 객체를 투영합니다. </br>
+`updateARModel()` 함수는 Firebase에서 다운로드한 3D 모델을 사용하여 인식된 사물에 해당하는 가상 객체를 투영합니다.</br>
 마지막으로 `getObjectInfo()` 함수는 Firestore에서 해당 객체의 데이터를 가져와 사용자에게 제공합니다. </br>
 이 메서드들 사용자에게 현실과 가상 세계를 융합한 구현을 제공하는 데 중요한 역할을 했습니다.
-</br>
-</br>
+</br></br>
 ## TroubleShooting
 3D 텍스트로 처음 테스트하는 단계에서는 알아채지 못했던 문제가 있었습니다. </br></br>
 <img src ="https://github.com/tv1039/ARRealityObjectScan/assets/62321931/5763366f-4b22-4242-8160-ef66e2283497" width="500px" /></br>
 3D 모델로 전환한 후 관찰한 결과, 카메라 기반 앵커를 사용하면 3D 모델이 뷰에 잡히지 않는 외부 위치에 배치되거나 예상치 못한 곳에 나타날 수 있다는 것을 깨달았습니다. 
-</br>
-</br>
+</br></br>
 해결 방법은 앵커를 카메라 기반에서 객체 기반으로 전환하는 것이었습니다. 이 변경으로 문제가 해결되었고, 3D 모델이 AR 환경에 정확하게 배치되었습니다. </br>
 이 경험으로 ARKit과 RealityKit을 사용할 때 앵커 포인트를 올바르게 설정하는 것의 중요성을 깨달았습니다. </br>
 이는 실제 세계에서 3D 객체를 정확하게 배치하기 위해 AR 앱을 개발할 때 고려해야 할 중요한 요소라고 생각합니다.
-</br>
-</br>
-</br>
+</br></br>
 ## Implementation goal (목표 구현)
 자동/수동 모드에 따른 테스트를 거친후 원하는 방향으로 3D모델과 동시에 인식된 객체를 설명하는 뷰의 구성을 완성하였습니다.</br></br>
 <img src="https://github.com/tv1039/ARRealityObjectScan/assets/62321931/757206a9-40b9-4a54-bf7d-82eac888efb7" width="500px" />
 <img src="https://github.com/tv1039/ARRealityObjectScan/assets/62321931/e99971db-31e2-43b4-8a88-8e1f5544a0b1" width="500px" />
-</br>
+</br></br>
 ## Project Review and Future Directions (후기와 향후 목표)
 이 프로젝트를 통해AR과 딥러닝(CreateML), 그리고 Firebase를 활용하여 실시간 객체 인식과 AR 모델 업데이트를 수행하는 방법을 이해하게 되었습니다.</br>
 이를 통해 사용자들에게 현실과 가상 세계를 융합한 증강현실 경험을 제공하는 데 성공하였습니다.</br>
