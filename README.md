@@ -64,10 +64,13 @@ func getObjectInfo(objectName: String, completion: @escaping (ObjectModel?, Erro
 <img src="https://github.com/tv1039/ARRealityObjectScan/assets/62321931/757206a9-40b9-4a54-bf7d-82eac888efb7" width="500px" />
 <img src="https://github.com/tv1039/ARRealityObjectScan/assets/62321931/e99971db-31e2-43b4-8a88-8e1f5544a0b1" width="500px" />
 </br></br>
-## Project Review and Future Directions (후기와 향후 목표)
-이 프로젝트를 통해AR과 딥러닝(CreateML), 그리고 Firebase를 활용하여 실시간 객체 인식과 AR 모델 업데이트를 수행하는 방법을 이해하게 되었습니다.</br>
-이를 통해 사용자들에게 현실과 가상 세계를 융합한 증강현실 경험을 제공하는 데 성공하였습니다.</br>
-또한, 꾸준한 서치와 시도를 통해 문제 해결 능력을 향상시킬 수 있었습니다.</br>
-앞으로도 더욱 다양하고 사용자들에게 흥미로운 프로젝트에 도전하여 성장해 나가겠습니다.”
 
+### Technologies Used
+- `SwiftUI`
+- `Combine`
+- `ARKit`
+- `RealityKit`
+- `Firebase`
+- `CoreML`
+- `Vision`
 
